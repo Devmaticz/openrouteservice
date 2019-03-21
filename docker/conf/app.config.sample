@@ -1,9 +1,9 @@
 {
    "ors":{
      "info": {
-       "base_url": "https://openrouteservice.org/",
-       "support_mail": "support@openrouteservice.org",
-       "author_tag": "openrouteservice",
+       "base_url": "http://www.augmentedtelematics.com/",
+       "support_mail": "support@augmentedtelematics.com/",
+       "author_tag": "Augmented Telematics SIG",
        "content_licence": "LGPL 3.0"
       },
       "services":{
@@ -12,7 +12,7 @@
             "maximum_locations":200,
             "maximum_visited_nodes":100000,
             "allow_resolve_locations":true,
-            "attribution":"openrouteservice.org, OpenStreetMap contributors"
+            "attribution":"Augmented Telematics SIG contributors"
          },
          "isochrones":{
             "enabled":true,
@@ -39,7 +39,7 @@
             "maximum_intervals":10,
             "maximum_locations":2,
             "allow_compute_area":true,
-            "attribution":"openrouteservice.org, OpenStreetMap contributors"
+            "attribution":"Augmented Telematics SIG contributors"
          },
          "routing":{
             "enabled":true,
@@ -48,7 +48,7 @@
                "data/osm_file.pbf"
             ],
             "init_threads":1,
-            "attribution":"openrouteservice.org, OpenStreetMap contributors",
+            "attribution":"Augmented Telematics SIG contributors",
             "distance_approximation":true,
             "profiles":{
                "active":[
